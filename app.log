@@ -1,0 +1,50 @@
+INFO|User login successful|user_id=1042|2024-03-15 08:01:23
+INFO|User login successful|user_id=2381|2024-03-15 08:02:11
+ERROR|Database connection timeout|service=orders-db|2024-03-15 08:02:45
+INFO|Order placed|order_id=9921|user_id=1042|amount=59.99|2024-03-15 08:03:02
+WARNING|High memory usage detected|service=api-gateway|usage=87%|2024-03-15 08:03:30
+INFO|User login successful|user_id=4410|2024-03-15 08:04:15
+ERROR|Failed to send email|recipient=user4410@example.com|reason=SMTP timeout|2024-03-15 08:04:18
+INFO|Cache hit|key=product:5521|2024-03-15 08:04:55
+INFO|Order placed|order_id=9922|user_id=2381|amount=134.50|2024-03-15 08:05:10
+ERROR|Payment gateway unreachable|order_id=9923|retry=1|2024-03-15 08:05:33
+ERROR|Payment gateway unreachable|order_id=9923|retry=2|2024-03-15 08:05:38
+ERROR|Payment gateway unreachable|order_id=9923|retry=3|2024-03-15 08:05:43
+INFO|User logout|user_id=1042|session_duration=264s|2024-03-15 08:06:00
+WARNING|Slow query detected|query=SELECT * FROM products|duration=3201ms|2024-03-15 08:06:22
+INFO|File uploaded|user_id=4410|filename=invoice_march.pdf|size=204KB|2024-03-15 08:07:01
+ERROR|Unhandled exception in worker|service=background-jobs|exception=NullPointerException|2024-03-15 08:07:45
+INFO|User login successful|user_id=7789|2024-03-15 08:08:05
+INFO|Order placed|order_id=9924|user_id=7789|amount=22.00|2024-03-15 08:08:30
+WARNING|Rate limit approaching|user_id=7789|requests=480/500|2024-03-15 08:08:55
+ERROR|Disk write failure|service=log-aggregator|path=/var/data/events|2024-03-15 08:09:10
+INFO|Cache miss|key=product:9910|2024-03-15 08:09:25
+INFO|User login successful|user_id=3301|2024-03-15 08:09:50
+INFO|Order placed|order_id=9925|user_id=3301|amount=310.00|2024-03-15 08:10:05
+ERROR|JWT token validation failed|user_id=unknown|ip=192.168.4.77|2024-03-15 08:10:20
+INFO|Password reset requested|user_id=2381|2024-03-15 08:10:45
+WARNING|CPU spike detected|service=recommendation-engine|cpu=93%|2024-03-15 08:11:00
+INFO|Order shipped|order_id=9921|tracking=TRK00192|2024-03-15 08:11:30
+ERROR|S3 upload failed|filename=report_q1.csv|reason=AccessDenied|2024-03-15 08:12:00
+INFO|User login successful|user_id=5512|2024-03-15 08:12:15
+INFO|Search performed|user_id=5512|query=wireless headphones|results=42|2024-03-15 08:12:40
+ERROR|Redis connection refused|service=session-store|host=redis-primary|2024-03-15 08:13:05
+WARNING|Deprecated API endpoint called|endpoint=/api/v1/products|caller=mobile-app-v2|2024-03-15 08:13:30
+INFO|Order placed|order_id=9926|user_id=5512|amount=89.95|2024-03-15 08:13:55
+ERROR|Webhook delivery failed|event=order.completed|url=https://partner.example.com/hook|status=503|2024-03-15 08:14:20
+INFO|User logout|user_id=4410|session_duration=611s|2024-03-15 08:14:50
+INFO|Scheduled job started|job=daily-report-generator|2024-03-15 08:15:00
+ERROR|Out of memory error|service=data-exporter|heap=2048MB|2024-03-15 08:15:22
+INFO|User login successful|user_id=6623|2024-03-15 08:15:40
+INFO|Order placed|order_id=9927|user_id=6623|amount=45.00|2024-03-15 08:16:00
+WARNING|SSL certificate expiring soon|domain=api.myapp.com|days_remaining=12|2024-03-15 08:16:25
+ERROR|Database deadlock detected|tables=orders,inventory|2024-03-15 08:16:50
+INFO|Cache cleared|scope=product-catalogue|keys_removed=1204|2024-03-15 08:17:10
+INFO|User login successful|user_id=8834|2024-03-15 08:17:30
+ERROR|Third-party API error|service=tax-calculator|status=500|response=Internal Server Error|2024-03-15 08:17:55
+INFO|Order refunded|order_id=9910|user_id=8834|amount=78.00|2024-03-15 08:18:20
+WARNING|Queue backlog growing|queue=email-notifications|depth=1523|2024-03-15 08:18:45
+INFO|User logout|user_id=7789|session_duration=651s|2024-03-15 08:19:00
+ERROR|Config file missing|service=feature-flags|path=/etc/config/flags.yaml|2024-03-15 08:19:25
+INFO|Order placed|order_id=9928|user_id=3301|amount=199.99|2024-03-15 08:19:50
+INFO|Scheduled job completed|job=daily-report-generator|duration=289s|2024-03-15 08:20:15

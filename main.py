@@ -3,8 +3,10 @@ from ingestion import *
 
 def main():
     file = read_log_file("./app.log")
+    parser = logParser()
     for value in file:
-        print(value)  # 0, 2, 4, 6, 8
+         data = parser.parse(value)
+         print(data)
 
 
 

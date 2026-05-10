@@ -7,6 +7,7 @@ This project is designed as a hands-on data engineering practice project focused
 ## Project Goals
 ### Workflow
 
+```
 Raw Logs
    ↓
 Ingestion
@@ -20,22 +21,21 @@ Transformation
 Storage
    ↓
 Analytics / Reporting
+```
 
 ### Features
 Current Features
-Read log files line-by-line efficiently
-Parse Application log formats 
-Structured output as Python dictionaries
-Object-oriented parser architecture
-Error handling for malformed logs
-Modular pipeline design
-Validation layer
-SQLite storage
+- Read log files line-by-line efficiently
+- Parse Application log formats
+- Structured output as Python dictionaries
+- Object-oriented parser architecture
+- Error handling for malformed logs
+- Modular pipeline design
+- Validation layer
+- SQLite storage
 
-### Planned Features
-Parse other log formats (apachel log, json log)
-Metrics tracking
-Pipeline logging
-Parallel processing
-
-
+### Planned Features
+- Parse other log formats (apache log, json log)
+- Metrics tracking
+- Pipeline logging
+- Parallel processing

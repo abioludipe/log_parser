@@ -53,7 +53,7 @@ class logParser():
                    "timestamp": timestamp}
         except:
             raise "log not found"
-        yield  ext_log
+        return  ext_log
    
 
 

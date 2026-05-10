@@ -24,24 +24,18 @@ Analytics / Reporting
 ### Features
 Current Features
 Read log files line-by-line efficiently
-Parse multiple log formats
+Parse Application log formats 
 Structured output as Python dictionaries
 Object-oriented parser architecture
 Error handling for malformed logs
 Modular pipeline design
+Validation layer
+SQLite storage
 
 ### Planned Features
-Validation layer
-CSV export
-SQLite storage
+Parse other log formats (apachel log, json log)
 Metrics tracking
 Pipeline logging
-Real-time streaming support
 Parallel processing
-Analytics dashboard
 
-Follow up will be creating a parsing strategy. 
-the pipeline can determine whether the file is an apache log, json log or application log
-
-Currently, the pipeline only works for application logs.
 

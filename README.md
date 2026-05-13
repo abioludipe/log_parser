@@ -2,7 +2,7 @@
 
 A modular Python-based ETL pipeline for ingesting, parsing, validating, transforming, and storing raw log data from multiple sources.
 
-This project is designed as a hands-on data engineering practice project focused on building real-world pipeline architecture using Python.
+This project is designed as a independent project focused on building real-world pipeline architecture using Python.
 
 ## Project Goals
 ### Workflow
